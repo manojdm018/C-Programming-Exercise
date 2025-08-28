@@ -9,7 +9,7 @@ int main (void)
 
     printf("Which food would you like to buy? ");
     fgets(name, sizeof(name),  stdin);
-    name[strcspn(name, "\n")] = '\0';
+    name[strlen(name) -1] = '\0';
 
 
     
