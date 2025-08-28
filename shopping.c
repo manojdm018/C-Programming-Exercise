@@ -13,7 +13,7 @@ int main (void)
 
 
     
-    printf("Whats the price of the %s:", name);
+    printf("Whats the price of the %s: rs", name);
     scanf("%f", &price);
 
 
