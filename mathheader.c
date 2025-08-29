@@ -18,7 +18,7 @@ int main(void)
 
     // x = log(x); // here the log() function givees the logorithum value of specific value 
 
-    x = sin(x);
+   // x = sin(x); // here the trignometric value of any trignometric value like sin,cos,tan and their co parts
 
     printf("%d",x);
 }
